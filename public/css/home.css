@@ -1,0 +1,51 @@
+        .product-list  {
+            display:grid;
+            grid-template-columns: 3fr 3fr 3fr;
+            grid-gap: 30px 50px;
+            margin: 0 2.4rem 1.2rem 2.4rem;
+            max-width: 100%;
+        }
+        .pagination {
+            justify-content: center;
+            margin: 0;
+        }
+        .w-75 nav {
+            box-shadow: none;
+            margin: 2.4rem 0 1.6rem 0;
+            padding: 0;
+        }
+        .card {
+            border: 0;
+            transition: .3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .list-group {
+            position: sticky;
+            top: 1rem;
+        }
+        .list-group-item {
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 0;
+        }
+        .sidebar {
+            width: 20%;
+            margin: 0 2.5%;
+        }
+        .has-search .form-control {
+            padding-left: 2.375rem;
+        }
+
+        .has-search .form-control-feedback {
+            position: absolute;
+            z-index: 2;
+            display: block;
+            width: 2.375rem;
+            height: 2.375rem;
+            line-height: 2.375rem;
+            text-align: center;
+            pointer-events: none;
+            color: #aaa;
+        }

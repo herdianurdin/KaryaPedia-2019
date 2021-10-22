@@ -1,0 +1,44 @@
+        .pagination {
+            justify-content: center;
+            margin: 0;
+        }
+        .content nav {
+            box-shadow: none;
+            margin: 1.6rem 0 1.2rem 0;
+            padding: 0;
+        }
+        .list-group {
+            position: sticky;
+            top: 1rem;
+        }
+        .list-group-item {
+            border: 0;
+        }
+        .sidebar {
+            width: 20%;
+            margin: 0 2.5%;
+        }
+        .content {
+            width: 72.5%;
+            margin: 0 2.5% 0 0;
+        }
+        .has-search .form-control {
+            padding-left: 2.375rem;
+        }
+
+        .has-search .form-control-feedback {
+            position: absolute;
+            z-index: 2;
+            display: block;
+            width: 2.375rem;
+            height: 2.375rem;
+            line-height: 2.375rem;
+            text-align: center;
+            pointer-events: none;
+            color: #aaa;
+        }
+        .table td, .table th {
+            border: 0;
+            vertical-align: middle;
+            padding: 0 0 5px 0;
+        }
